@@ -1,0 +1,459 @@
+/* font-family: 'Roboto',
+sans-serif; */
+
+/* font-family: 'Montserrat',
+sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: #eee;
+  }
+  
+  #covidBlock {
+    height: 60px;
+    width: 100%;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  
+  #covidBlock article h4 a {
+    color: #222222;
+    font-size: 14px;
+    line-height: 54px;
+  }
+  
+  /*-----HEADER CONTAINER CSS ENDS HERE---------------------*/
+  
+  #headerContainer {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #headerContainer article {
+    display: flex;
+    height: 60px;
+    align-items: center;
+  }
+  
+  .logoBlock {
+    display: flex;
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .middleMenu {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rightMenu {
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .middleMenu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .middleMenu ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .rightMenu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .rightMenu ul li {
+    margin: 15px;
+  }
+  
+  .rightMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .userIconBlock {
+    background: #fff;
+    padding: 7px 11px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 0px #ccc;
+    color:black;
+  }
+  
+  .rightMenu ul li a:hover {
+    background: #111;
+    padding: 8px 13px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 0px #ccc;
+  }
+  
+  /*-----SLIDER BLOCK CSS STARTS HERE -----*/
+  #sliderBlock {
+    background: url("https://a0.muscache.com/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50% !important;
+    margin-top: -60px;
+  }
+  
+  #sliderBlockParent {
+    position: relative;
+  }
+  
+  #sliderBlock .parentContainer {
+    display: flex;
+  }
+  
+  .leftSideBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 600px;
+    flex-direction: column;
+  }
+  
+  .rightSideBlock {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 75%;
+    height: 600px;
+    padding-top: 70px;
+  }
+  
+  .leftSideBlock main {
+    padding: 70px;
+  }
+  
+  .leftSideBlock main h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+  
+  .leftSideBlock main p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 0 15px;
+    color: #fff;
+  }
+  
+  .leftSideBlock main button {
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    padding: 7px 20px;
+    border: none;
+    font-size: 15px;
+  }
+  
+  .rightSideBlock form {
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    left: -60px;
+  }
+  
+  .rightSideBlock form div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .rightSideBlock form div input {
+    border: none;
+    padding: 3px 0;
+  }
+  
+  .rightSideBlock form div:hover {
+    background: #efefef;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .rightSideBlock form div:hover input {
+    background: transparent;
+  }
+  
+  .locationBlock {
+    width: 35%;
+  }
+  
+  .checkInBlock {
+    width: 20%;
+  }
+  
+  .checkoutBlock {
+    width: 20%;
+  }
+  
+  .guestBlock {
+    width: 25%;
+    position: relative;
+  }
+  
+  .guestBlock i {
+    background: #ff385c;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border-radius: 30px;
+    font-weight: normal;
+  }
+  
+  .rightSideBlock form div label {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+  }
+  
+  .rightSideBlock form div input:focus {
+    box-shadow: 1px 1px 2px 0px #ccc;
+    border: none;
+    outline: none;
+  }
+  #btn1{
+      background-color: white;
+      color:black;
+  }
+  
+  /*-----SLIDER BLOCK CSS ENDS HERE-------*/
+  
+  /*-----CARD BLOCK CSS STARTS HERE-------*/
+  #cardSection article {
+    width: 90%; 
+    margin: 20px auto;
+    display : flex;
+  }
+  
+  #cardSection article div {
+    background: #fff;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  #cardSection article div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0px;
+  }
+  
+  #cardSection article div h3 {
+    padding: 5px 10px 0;
+    font-size: 16px;
+  }
+  
+  #cardSection article div p {
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  /*-----CARD BLOCK CSS ENDS HERE-------*/
+  
+  /*-----BROADWAY BLOCK CSS STARTS HERE-------*/
+  #broadwaySection
+  {
+      background-color: #000;
+      color:white
+  } 
+ 
+  
+  #broadwaySection article {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  #broadwaySection article header {
+    display: flex;
+    padding: 60px 10px;
+  }
+  
+  #broadwaySection article header .leftHead {
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  #broadwaySection article header .leftHead h3 {
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  #broadwaySection article header .leftHead p {
+    font-size: 15px;
+  }
+  
+  #broadwaySection article header .rightHead {
+    width: 65%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  #broadwaySection article header .rightHead button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #broadwaySection article header .rightHead button:hover {
+    background: #999;
+  }
+  
+  #broadwaySection article main {
+    display: flex;
+  }
+  
+  #broadwaySection article aside {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  #broadwaySection img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  #broadwaySection .asideLeft div {
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+  }
+  
+  #broadwaySection h4 {
+    padding: 20px;
+    font-size: 13px;
+  }
+  
+  .asideRight .mixedBroadwayBlock .topMixedBlock {
+    display: flex;
+  }
+  
+  .asideRight .mixedBroadwayBlock .topMixedBlock div {
+    width: 50%;
+    margin: 0px 10px;
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+  }
+  
+  .asideRight .mixedBroadwayBlock .bottomMixedBlock div {
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+    margin: 20px 10px;
+  }
+  
+  /*-----BROADWAY BLOCK CSS ENDS HERE-------*/
+  
+  /*----------------FOOTER BLOCK CSS STARTS HERE ----------------------*/
+  #footerBlock {
+    background-color: rgb(247 247 247);
+    border-top: 1px solid rgb(221 221 221);
+  }
+  
+  #footerBlock article {
+    width: 90%;
+    margin: 10px auto 0;
+    display: flex;
+  }
+  
+  #footerBlock article div {
+    width: 25%;
+  }
+  
+  #footerBlock article div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footerBlock article div h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 30px 0 20px;
+  }
+  
+  #footerBlock article div ul li a {
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    color: #111;
+    font-size: 15px;
+  }
+  
+  #footerBlock article div ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /*----------------FOOTER BLOCK CSS ENDS HERE -------------------------*/
+  
+  /*------------------FOOTER BOTTOM CSS STARTS HERE ----------------------*/
+  #footerBottom {
+    background-color: rgb(247 247 247);
+  }
+  
+  #footerBottom article {
+    background-color: rgb(247 247 247);
+    border-top: 1px solid rgb(221 221 221);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  #footerBottom article div {
+    width: 50%;
+    height: 50px;
+    padding: 30px 0;
+  }
+  
+  .footerRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /*-----------------FOOTER BOTTOM CSS ENDS HERE --------------------------*/
